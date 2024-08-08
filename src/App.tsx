@@ -1,10 +1,14 @@
-import React from 'react';
-import './assets/scss/base.scss'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LoginPage from './Containers/LoginPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

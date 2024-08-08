@@ -1,0 +1,20 @@
+.login-card-container {
+    text-align: center;
+    border: solid 2px transparent;
+    border-radius: 8px;
+    background:
+        linear-gradient( #27292D, #27292D) padding-box,
+        linear-gradient(129.59deg, #969696 0%, #343434 98.18%) border-box;
+
+    .form-container {
+        input {
+            border: 1.5px solid #35373B;
+            border-radius: 4px;            
+        }
+
+        button {
+            background-color: #4A96FF;
+            border-radius: 4px;            
+        }
+    }
+}
