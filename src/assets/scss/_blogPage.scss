@@ -1,0 +1,25 @@
+.blog-page-container {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        width: 567px;
+    }
+
+    .blog-card-container {
+        border: 2px solid #35373B;
+
+        h3 {
+            font-size: 1.125rem;
+        }
+
+        .blog-content-container {
+            background-color: #19191f;
+        }
+
+        button {
+            background-color: #4A96FF;
+        }
+    }
+}
