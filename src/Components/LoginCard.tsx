@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import eye from '../assets/images/eye.png'
+import { Link } from 'react-router-dom'
 
 type LoginProps = {
     popup: Boolean,
@@ -47,9 +48,9 @@ function LoginCard(props: LoginProps) {
                         <img onClick={() => setShowPass(!showPass)} className="block absolute cursor-pointer inset-y-0 my-auto right-3" src={eye} alt="show password"/>
                     </div>
                 </div>
-                <a className="w-full block p-3 mt-6 cursor-pointer text-white bg-atlys-blue" href='/blogs'>
+                <Link className="w-full block p-3 mt-6 cursor-pointer text-white bg-atlys-blue" to='/blogs'>
                     Login now
-                </a>
+                </Link>
                 <div className="text-left text-sm mt-3">
                     <button onClick={props.register ? props.setLogin : props.setRegister} className="no-underline text-atlys-small bg-transparent">{props.register ? "Already have an account?" : "Not registered yet?"} <span className="text-white">{props.register ? "Login" : "Register"} →</span></button>
                 </div>
