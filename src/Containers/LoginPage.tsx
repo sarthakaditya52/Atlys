@@ -7,7 +7,7 @@ function LoginPage() {
       <div>
         <img className="w-10 mb-8 block m-auto" src={shape} alt='login-top' />
       </div>
-      <LoginCard />
+      <LoginCard popup={false} register={false} />
     </div>
   )
 }

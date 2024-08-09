@@ -13,6 +13,8 @@ module.exports = {
         'xs': "#6B6C70",
         'small': "#7F8084",
         'md': "#C5C7CA",
+        'button': '#131319',
+        'blue': '#4A96FF'
       }
     },
     extend: {},
