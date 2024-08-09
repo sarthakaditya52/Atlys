@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/atlys/static/css/main.9731a881.css",
-    "main.js": "/atlys/static/js/main.1f8cdef1.js",
-    "static/js/453.707725e5.chunk.js": "/atlys/static/js/453.707725e5.chunk.js",
-    "static/media/user2.png": "/atlys/static/media/user2.394dd73d9357e20bf000.png",
-    "static/media/user1.png": "/atlys/static/media/user1.26f1aa004f53c6998043.png",
-    "index.html": "/atlys/index.html",
-    "main.9731a881.css.map": "/atlys/static/css/main.9731a881.css.map",
-    "main.1f8cdef1.js.map": "/atlys/static/js/main.1f8cdef1.js.map",
-    "453.707725e5.chunk.js.map": "/atlys/static/js/453.707725e5.chunk.js.map"
+    "main.css": "/Atlys/static/css/main.9731a881.css",
+    "main.js": "/Atlys/static/js/main.0aaffc8d.js",
+    "static/js/453.707725e5.chunk.js": "/Atlys/static/js/453.707725e5.chunk.js",
+    "static/media/user2.png": "/Atlys/static/media/user2.394dd73d9357e20bf000.png",
+    "static/media/user1.png": "/Atlys/static/media/user1.26f1aa004f53c6998043.png",
+    "index.html": "/Atlys/index.html",
+    "main.9731a881.css.map": "/Atlys/static/css/main.9731a881.css.map",
+    "main.0aaffc8d.js.map": "/Atlys/static/js/main.0aaffc8d.js.map",
+    "453.707725e5.chunk.js.map": "/Atlys/static/js/453.707725e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9731a881.css",
-    "static/js/main.1f8cdef1.js"
+    "static/js/main.0aaffc8d.js"
   ]
 }
