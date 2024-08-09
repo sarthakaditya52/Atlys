@@ -17,7 +17,11 @@ module.exports = {
         'blue': '#4A96FF'
       }
     },
-    extend: {},
+    extend: {
+      'scale': {
+        '98': "0.98"
+      }
+    },
   },
   plugins: [],
 }

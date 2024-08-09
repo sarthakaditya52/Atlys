@@ -20,11 +20,11 @@ function LoginCard(props: LoginProps) {
     const [showPass, setShowPass] = useState(false)
 
   return (
-    <div className="container max-w-lg ml-auto mr-auto">
+    <div className="container max-w-lg ml-auto mr-auto px-2 sm:px-0">
         <div className="login-card-container relative rounded-lg px-5 py-8">
-            <div onClick={props.onClose} className="absolute right-6 top-6 bg-atlys-button w-6 h-6 rounded-full cursor-pointer">
+            {props.popup && <div onClick={props.onClose} className="absolute right-6 top-6 bg-atlys-button w-6 h-6 rounded-full cursor-pointer">
                 <button className="block m-auto h-full text-xs">&#x2715;</button>
-            </div>
+            </div>}
             <h2 className="text-sm text-atlys-xs">{props.register ? "SIGN UP" : "WELCOME BACK"}</h2>
             <h1 className="text-white text-lg">{props.register ? "Create an account to continue" : "Log into your account"}</h1>
             <div className="form-container mt-10">
@@ -47,9 +47,9 @@ function LoginCard(props: LoginProps) {
                         <img onClick={() => setShowPass(!showPass)} className="block absolute cursor-pointer inset-y-0 my-auto right-3" src={eye} alt="show password"/>
                     </div>
                 </div>
-                <button className="w-full block p-3 mt-6 text-white bg-atlys-blue">
+                <a className="w-full block p-3 mt-6 cursor-pointer text-white bg-atlys-blue" href='/blogs'>
                     Login now
-                </button>
+                </a>
                 <div className="text-left text-sm mt-3">
                     <button onClick={props.register ? props.setLogin : props.setRegister} className="no-underline text-atlys-small bg-transparent">{props.register ? "Already have an account?" : "Not registered yet?"} <span className="text-white">{props.register ? "Login" : "Register"} →</span></button>
                 </div>
